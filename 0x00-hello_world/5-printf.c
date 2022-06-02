@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * this is comment for main
- * this is for main
+ * int main - short description
+ * print 
+ * return 
  */
 int main(void)
 {
