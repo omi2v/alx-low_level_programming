@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * int main - short description
- * print 
- * return 
+ * main - prints "with proper grammar, but the outcome is a piece of art,\n"
+ * return: 0 
  */
 int main(void)
 {
