@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main (void)
 {
-        int n=5;
-        printf("The number, followed by \n");
+        int n = 5;
+        
         if (n>0){
-                printf("if the number is greater than 0: is positive\n");
+                printf("is positive\n");
         }
         else if (n<0){
-                printf("if the number is less than 0: is negative\n");
+                printf("is negative\n");
         }
         else{
-                printf("if the number is 0: is zero");
+                printf("is zero");
         }
         return (0);
 }
