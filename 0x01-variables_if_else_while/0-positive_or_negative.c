@@ -1,12 +1,11 @@
-#include <stdio.h>
+   #include <stdio.h>
 int main (void)
 {
-        int n = 5;
-        
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
-        if (n>0){
+        int n = 0;
+        printf("enter the number:");
+         scanf("%d", &n);
+        if (n > 0)
+        {
                 printf("is positive\n");
         }
         else if (n<0){
@@ -17,4 +16,3 @@ int main (void)
         }
         return (0);
 }
-
