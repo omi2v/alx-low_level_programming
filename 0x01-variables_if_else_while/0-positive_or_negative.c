@@ -2,7 +2,7 @@
 int main (void)
 {
         int n=5;
-        printf("The number, followed ds by \n");
+        printf("The number, followed by \n");
         if (n>0){
                 printf("if the number is greater than 0: is positive\n");
         }
