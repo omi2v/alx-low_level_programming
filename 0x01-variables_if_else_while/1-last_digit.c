@@ -19,7 +19,7 @@ printf("%i n", n);
 printf("%i is", n);
 	if (n % 10 > 5)
 	{
-		printf("%i n and is greater than 5\n", n);
+		printf("%i and is greater than 5\n", n);
 	}
 if (n % (10) == 0)
 {
