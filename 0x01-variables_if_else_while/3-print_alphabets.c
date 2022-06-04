@@ -9,9 +9,10 @@
  */
 int main(void)
 {
-        int ch,p;
-        for (ch = 'a'; ch <= 'z'; ++ch)
+        int ch;
+        for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
+	int p;
 		for (p = 'A'; p <= 'Z'; p++)
 	putchar (p);
         putchar ('\n');
