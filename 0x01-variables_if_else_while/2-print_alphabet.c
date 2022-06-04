@@ -4,13 +4,14 @@
 /**
  * main - main block
  * Description: get a random number and print the number
- * for loop 
+ * for loop
  * Return: 0
  */
 int main(void)
 {
 	int ch;
-	for (ch = 'a'; ch <= 'z'; ++ch){
+	for (ch = 'a'; ch <= 'z'; ++ch)
+	{
 		putchar (ch);
 	}
 	putchar ('\n');
