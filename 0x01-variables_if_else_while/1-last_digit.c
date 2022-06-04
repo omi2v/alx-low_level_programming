@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int n=n%10;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -17,10 +17,9 @@ int main(void)
 printf("%i Last digit of\n", n);
 printf("%i n\n", n);
 printf("%i is\n", n);
-	if (n > 5)
+	if (n % 10 > 5)
 	{
-		printf("%i n", n);
-		printf("%i and is greater than 5\n", n);
+		printf("%i n and is greater than 5\n", n);
 	}
 if (n % (10) == 0)
 {
