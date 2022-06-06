@@ -15,5 +15,6 @@ int n = 0;
 	printf("%i", n);
 	n++;
 	}
+	printf('\n');
 	return (0);
 }
