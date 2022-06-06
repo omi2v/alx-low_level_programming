@@ -9,8 +9,8 @@
  */
 int main(void)
 {
-	char n ='0';
-for (n = '0'; n <= '9'; n++)
+	char ne ='0';
+for (ne = '0'; ne <= '9'; ne++)
 {
 putchar (n);
 }
