@@ -12,7 +12,7 @@ int main(void)
 	char ne ='0';
 for (ne = '0'; ne <= '9'; ne++)
 {
-putchar (n);
+putchar (ne);
 }
 	putchar ('\n');
 return (0);
