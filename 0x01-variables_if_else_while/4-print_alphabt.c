@@ -15,6 +15,7 @@ for (ch = 'a'; ch <= 'z'; ch++)
 if ((ch == 'q') || (ch == 'e'))
 {
 continue;
+continue;
 }
 putchar(ch);
 }
