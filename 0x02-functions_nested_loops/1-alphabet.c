@@ -5,12 +5,11 @@
  * main - main block
  * Description: get a random number and print the number
  * for loop
- * Return: 0
  */
 void print_alphabet(void)
 {
 char ch;
-for (ch = 'a'; ch <= 'z'; ++ch) 
+for (ch = 'a'; ch <= 'z'; ++ch)
 {
 putchar (ch);
 }
