@@ -13,8 +13,16 @@ for (ch = 'a'; ch <= 'z'; ++ch)
 {
 putchar (ch);
 }
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
 putchar ('\n');
-print_alphabet_x10();
-print_alphabet_x10();
 }
 
