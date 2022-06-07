@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <main.h>
-#include <unistd.h>
 /**
  * main - prints "with proper grammar, but the outcome is a piece of art,\n"
  * Return: 0 end of program
