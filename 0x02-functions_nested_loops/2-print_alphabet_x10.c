@@ -1,19 +1,23 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 /**
- * print_alphabet - This is a description
- * for loop
- * return 0
+ * print_alphabet_x10 - print alphabet
+ * Description- a program to print alphabet 10times
+ * Return: 0
  */
+
 void print_alphabet_x10(void)
 {
-for (int e = 0; e < 10; e++ ){
-char ch;
-for (ch = 'a'; ch <= 'z'; ++ch)
-{
-putchar(ch);
-}
-putchar('\n');
-}
+  char alpha;
+  int x = 0;
+    while (x < 10)
+    {
+    alpha = 'a';
+      while (alpha <= 'z')
+      {
+        _putchar(alpha);
+        alpha++;
+      }
+      _putchar('\n');
+      x++;
+    }
 }
