@@ -9,20 +9,10 @@
 void print_alphabet_x10(void)
 {
 char ch;
-for (ch = 'a'; ch <= 'z'; ++ch)
+for (ch = '1'; ch <= '10'; ++ch)
 {
-putchar (ch);
-}
-print_alphabet_x10();
-print_alphabet_x10();
-print_alphabet_x10();
-print_alphabet_x10();
-print_alphabet_x10();
-print_alphabet_x10();
-print_alphabet_x10();
-print_alphabet_x10();
-print_alphabet_x10();
-print_alphabet_x10();
-putchar ('\n');
+putchar('abcdefghijklmnopqrstuvwxyz');
+putchar('\n');
+return (0);
 }
 
