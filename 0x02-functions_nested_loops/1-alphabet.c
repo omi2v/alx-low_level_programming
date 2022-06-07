@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- * main - main block
- * Description: get a random number and print the number
+/** 
+ * Description: print alpahte from a to z
+ * print_alphabet: declration of function
  * for loop
  */
 void print_alphabet(void)
