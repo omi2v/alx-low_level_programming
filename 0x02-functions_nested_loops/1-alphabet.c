@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
+/**
  * print_alphabet - This is a description
  * for loop
  * return 0
