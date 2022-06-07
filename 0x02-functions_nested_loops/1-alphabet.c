@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /** 
- * Description: print alpahte from a to z
- * print_alphabet: declration of function
+ * print_alphabet - This is a description
  * for loop
+ * return 0
  */
 void print_alphabet(void)
 {
