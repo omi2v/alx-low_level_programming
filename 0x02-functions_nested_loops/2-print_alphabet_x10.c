@@ -13,7 +13,7 @@ if ( e < 10 ){
 char ch;
 for (ch = 'a'; ch <= 'z'; ++ch)
 {
-putchar('ch');
+putchar(ch);
 }
 putchar('\n');
 e++;
