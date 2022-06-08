@@ -1,26 +1,40 @@
 #include "main.h"
 
 /**
- * jack_bauer - function that prints every minute of the day, 24 hour clock
- * h = hour, m = minutes
- * / 10 allows second digit to rotate
- * for loop breaks before passing 24:00
- * Return: 24 hour clock line by line
+ * times_table -  a function that prints the 9 times table, starting with 0
+ * rone = row, cone = column, d = digits of current result
+ * Return: times table
+ * add extra space past single digit
  */
-void jack_bauer(void)
-{
-	int h, m;
 
-	for (h = 0; h < 24; h++)
+void times_table(void)
+{
+	int rone, cone, d;
+
+	for (rone = 0; rone <= 9; rone++)
 	{
-		for (m = 0; m < 60; m++)
+		_putchar('0');
+		_putchar(',');
+		_putchar(' ');
+		for (cone = 1; cone <= 9; cone++)
 		{
-			_putchar((h / 10) + '0');
-			_putchar((h % 10) + '0');
-			_putchar(':');
-			_putchar((m / 10) + '0');
-			_putchar((m % 10) + '0');
-			_putchar('\n');
+			d = (rone * cone);
+			if ((d / 10) > 0)
+			{
+				_putchar((d / 10) + '0');
+			}
+			else
+			{
+				_putchar(' ');
+			}
+			_putchar((d % 10) + '0');
+
+			if (cone < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
+		_putchar('\n');
 	}
 }
