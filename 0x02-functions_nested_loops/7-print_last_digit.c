@@ -4,9 +4,9 @@
 *@: takes integer
 *Return: value of last digit
 */
-int print_last_digit(int n, int f)
+int print_last_digit(int)
 {
-	n = f % 10;
-	_putchar('n');
+	int%10;
+	_putchar('int');
 	return (n);
 }
