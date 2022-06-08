@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*print_sign - returns 1 if lowercase alphabet and 0 otherwise
+*print_sign - description for _putchar something
 *@c: takes in a character
-*Return: 0 for uppercase, 1 for lowercase
+*Return: 0 for 0, 1 for +, -1 for -
 */
 int print_sign(int n)
 {
