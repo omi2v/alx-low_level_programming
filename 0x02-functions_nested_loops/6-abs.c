@@ -6,9 +6,9 @@
 */
 int _abs(int)
 {
-        int c;
-abs(c);
-_putchar('c');
-        return (c);
+        int r,c;
+r = abs(c);
+_putchar('r');
+        return (r);
 }
 
