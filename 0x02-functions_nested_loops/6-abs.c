@@ -1,13 +1,11 @@
 #include "main.h"
 /**
 *_abs - prints absolute value of a number
-*@: takes integer
+*@a: takes integer
 *Return: value of last digit
 */
-int _abs(int)
+int _abs(int a)
 {
-	r,c;
-r = abs(c);
-_putchar('r');
+	return (a * ((a > 0) - (a < 0)));
 }
 
