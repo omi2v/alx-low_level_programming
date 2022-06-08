@@ -4,7 +4,7 @@
 *@: takes integer
 *Return: value of last digit
 */
-int print_last_digit(int n int f)
+int print_last_digit(int n, int f)
 {
 	int n;
 	int f;
