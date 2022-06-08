@@ -1,9 +1,8 @@
 #include<stdio.h>
 int _islower(int c)
 {
-int c;
 printf ("Enter a character n");
-scanf ("%c", &c);
+scanf ("%i", &c);
 if (c>='a' && c<='z')
 {
 return (1);
