@@ -4,7 +4,7 @@
 *@: takes integer
 *Return: value of last digit
 */
-int _abs(int r, c)
+int _abs(int r, int c)
 {
 r = abs(c);
 _putchar('r');
