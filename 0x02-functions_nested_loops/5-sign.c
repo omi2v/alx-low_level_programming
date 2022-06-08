@@ -1,7 +1,6 @@
 #include "main.h"
 /**
-*print_sign - description for _putchar something
-*@c: takes in a character
+*print_sign - prints the sign of a number
 *Return: 0 for 0, 1 for +, -1 for -
 */
 int print_sign(int n)
