@@ -4,10 +4,10 @@
 *@: takes integer
 *Return: value of last digit
 */
-int print_last_digit(int)
+int print_last_digit()
 {
 	int i;
 	i = i % 10;
 _putchar('i');
-	return (n);
+	return (i);
 }
