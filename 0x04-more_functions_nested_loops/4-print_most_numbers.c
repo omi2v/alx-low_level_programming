@@ -8,16 +8,16 @@
 
 void print_numbers(void)
 {
-        int i;
-
-        for (i = '0'; i <= '9'; i++)
-        {
-		if(i = '2') && (i = '4'))
-		{
-			continue;
-		}}
-                _putchar(i);
-        }
-        _putchar('\n');
+int p;
+for (p = '0'; p <= '9'; p++)
+{
+if ((p == '2') || (p == '4'))
+{
+continue;
+}
+_putchar(p);
+}
+_putchar('\n');
+return (0);
 }
 
