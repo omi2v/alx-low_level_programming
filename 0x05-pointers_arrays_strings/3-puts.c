@@ -9,7 +9,7 @@ void _puts(char *str)
 	int s;
 for (s = 0; str[s] != '\0'; s++)
 {
-printf(str[s]);
+_puts(str[s]);
 }
-printf('\n');
+_puts('\n');
 }
