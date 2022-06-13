@@ -1,5 +1,6 @@
 #include "main.h"
 void _puts(char *str)
 {
-	_putchar("%s hi \n");
+	while (*str = getchar(), *str >= 0)
+		_putchar(*str);
 }
