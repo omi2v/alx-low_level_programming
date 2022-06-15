@@ -7,5 +7,11 @@
  */
 char *_strcat(char *dest, char *src)
 {
-return (strcat(dest, src));
+	char *temp = dest;
+	while (*dest)
+		dest++;
+	while (*src)
+		*dest++= *src++;
+	*dest ='\0';
+	return (temp);
 }
