@@ -7,8 +7,5 @@
  */
 char *_strcat(char *dest, char *src)
 {
-char *result = malloc(strlen(dest) + strlen(src) + 1;
-strcpy(result, dest);
-strcpy(result, src);
-	return (result);
+strcat(des, src);
 }
