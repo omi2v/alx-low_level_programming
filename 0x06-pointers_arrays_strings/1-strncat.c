@@ -3,20 +3,25 @@
  *_strncat - main descriptioon
  *@dest:  dest char
  *@src: other char
- *@n: integer declartaion
- *Return: retun something
+ *@n: integer declaration
+ *Return: nothing
  */
-char *_strncat(char *dest, char *src, int n)
+ char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0;
-while (src[i] != '\0' && i < n)
+	int srclen = 0, i = 0;
+	char *temp = dest, *start = src;
+	while (*src)
 	{
-		dest[i] = src[i];
-		i++;
+		scrlen++;
+		scr++;
 	}
+	while (*dest)
+		dest++;
+	if (n > srclen)
+		n = srclen;
+	src = start;
 	for (; i < n; i++)
-	{
-		dest[i] = '\0';
-	}
-	return (dest);
+		*dest++ = *src++;
+	*dest = '\0';
+	return (temp);
 }
