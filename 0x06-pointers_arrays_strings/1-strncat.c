@@ -6,7 +6,7 @@
  *@n: integer declaration
  *Return: nothing
  */
- char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int srclen = 0, i = 0;
 char *temp = dest, *start = src;
