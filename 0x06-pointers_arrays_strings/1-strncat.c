@@ -15,7 +15,8 @@ while (*src)
 srclen++;
 src++;
 }
-while (*destdest++;
+while (*dest)
+dest++;
 if (n > srclen)
 n = srclen;
 src = start;
