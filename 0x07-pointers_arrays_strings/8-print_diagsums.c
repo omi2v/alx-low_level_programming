@@ -18,8 +18,9 @@ i = i + size + 1;
 }
 while (j < (size * size - 1))
 {
-sum2 = sum2 + a[j];
+sum2 += a[j];
 j = j + size - 1;
 }
-printf("%d, %d\n", sum1, sum2)
+_putchar("%d, %d\n", sum1, sum2);
 }
+
