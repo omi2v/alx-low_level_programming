@@ -3,7 +3,7 @@
 /**
  * _strpbrk - searching string
  * @s: string
- * @accept: the byte too search 
+ * @accept: the byte too search
  * Return: null
  */
 char *_strpbrk(char *s, char *accept)
