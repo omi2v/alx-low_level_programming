@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _strchr - locate character 
+ * _strchr - locate character
  * @s: string to take
  * @c: character to check
  * Return: Null
@@ -12,7 +12,7 @@ char *_strchr(char *s, char c)
 	{
 		if (*s != c)
 			s++;
-		else 
+		else
 			return (s);
 	}
 	if (c == '\0')
