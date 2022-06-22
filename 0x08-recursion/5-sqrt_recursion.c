@@ -23,7 +23,7 @@ int helper(int a, int b)
 }
 
 /**
- *_sqrt_recursion -  function to 
+ *_sqrt_recursion -  function to
  *@n: the integer
  *Return: nothing
  */
