@@ -1,4 +1,4 @@
-#include "mainh"
+#include "main.h"
 /**
  * _puts_recursion - the function to print recursion
  * @s: the string to print
