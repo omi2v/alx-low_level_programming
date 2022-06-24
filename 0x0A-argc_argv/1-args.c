@@ -12,7 +12,7 @@ int i;
 (void)argv;
 for (i = 0; i < argc; i++)
 {}
-printf("%d\n", i - 2);
+printf("argv[%d]= %s\n", i, argv[i]);
 
 return (0);
 }
