@@ -19,7 +19,7 @@ else
 {
 p = atoi(argv[1]);
 j = atoi(argv[2]);
-mul = p * j;
+mul = p *j;
 printf("%d\n", mul);
 return (0);
 }
