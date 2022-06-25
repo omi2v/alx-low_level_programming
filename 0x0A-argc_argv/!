@@ -16,10 +16,11 @@ return (1);
 }
 else
 {
-p = atoi(argv[1]);
-j = atoi(argv[2]);
+p = atoi(agrv[1]);
+j = atoi(agrv[2]);
 mul = p * j;
-printf("%d\n", mul);
+}
+printf("mul=%d\n", mul);
 return (0);
 }
-}
+
