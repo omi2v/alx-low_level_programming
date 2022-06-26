@@ -3,32 +3,29 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
- *main - main function
- *@argc: arg to count
- *@argv: arg to vector
- *Return: 0
+ * main - a program that prints its name, followed by a new line
+ * @argc: arguement count
+ * @argv: argument value, a strings that come after calling function
+ * Return: Always 0 (Success)
  */
-int main(int argc, int argv[])
+
+int main(int argc, char *argv[])
 {
-int c, d;
-int n = 0;
-if (argc < 2)
-{
-printf("0\n");
-return (0);
-}
-for (c = 1; c < argc; c++)
-{
-for (d = 0; argv[c][d] != '\0'; d++)
-{
-if (argv[c][d] < '0' || argv[c][d] > '9')
-{	
-printf("Error\n");
-return (1);
-}
-}
-n += atoi(argv[c]);
-}
-printf("%d\n", n);
-return (0);
+	int num, result = 0, i;
+
+	while (argc-- > 1)
+	{
+		for (i = 0; argv[argc][i]; i++)
+		{
+			if (!(isdigit(argv[argc][i])))
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		num = atoi(argv[argc]);
+		result += num;
+	}
+	printf("%d\n", result);
+	return (0);
 }
