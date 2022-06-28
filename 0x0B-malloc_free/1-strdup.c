@@ -15,14 +15,14 @@ char *s;
 while (str[i])
 i++;
 s = malloc(sizeof(char) * (i + 1));
-if (ar == NULL)
+if (s == NULL)
 return (NULL);
 while (str[j])
 {
-ar[j] = str[j];
+s[j] = str[j];
 j++;
 }
-ar[j + 1] = 0;
-return (ar);
+s[j + 1] = 0;
+return (s);
 }
 
