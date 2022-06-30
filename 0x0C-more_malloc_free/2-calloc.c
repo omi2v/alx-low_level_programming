@@ -12,9 +12,9 @@ unsigned int p;
 char *ar;
 if (size == 0 || nmemb == 0)
 return (NULL);
+ar = malloc(size * nmemb);
 if (ar == NULL)
 return (NULL);
-ar = malloc(size * nmemb);
 for (p = 0; p < (size * nmemb); p++)
 ar[p] = 0;
 return (ar);
