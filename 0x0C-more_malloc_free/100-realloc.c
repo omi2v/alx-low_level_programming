@@ -15,7 +15,7 @@ if (old_size == new_size)
 return (ptr);
 if (ptr == NULL)
 {
-ar = malloc(new_size)
+ar = malloc(new_size);
 return (ar);
 }
 if (new_size == 0)
