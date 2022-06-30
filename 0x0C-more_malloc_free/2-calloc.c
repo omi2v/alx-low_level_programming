@@ -10,11 +10,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int p;
 	char *ar;
-	if (nmemb == 0 || size == 0)
+	if (size == 0 || nmemb == 0)
 		return (NULL);
+	ar = malloc(size * nmemb);
 			if (ar == NULL)
 				return (NULL);
-	ar = malloc(nmemb * size);
 	for (p = 0; p < (size * nmemb); p++)
 		ar[p] = 0;
 	return (ar);
