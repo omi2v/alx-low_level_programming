@@ -19,7 +19,7 @@ return (NULL);
 for (p = min; p <= max; p++)
 {
 ar[q] = p;
-j++;
+q++;
 }
 return (ar);
 }
