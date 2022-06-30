@@ -2,6 +2,7 @@
 #include <stdlib.h>
 /**
  * _realloc - realoc function
+ * @ptr: the pointer
  * @old_size: first integer
  * @new_size: second function
  * Return: somethimg
