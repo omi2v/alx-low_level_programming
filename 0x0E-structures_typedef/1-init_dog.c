@@ -1,10 +1,26 @@
-#ifndef _1_defs_
-#define _1_defs_
+#include <stdio.h>
+#include <stdlib.h>
+#include "dog.h"
 /**
- * struct dog - description for struct
+ * print_dog - prints a struct dog
+ * @d: the structure
+ * Return: nothing
  */
-struct dog
+void print_dog(struct dog *d)
 {
-void init_dog(struct dog *d, char *name, float age, char *owner);
-};
-#endif
+	if (d)
+	{
+		if (d->name)
+			printf("Name: %s\n", d->name);
+		else
+			printf("Name: (nil)\n");
+		printf("Age: %.6f\n", d->age);
+		if (d->owner)
+			printf("Owner: %s\n", d->owner);
+		else
+			printf("Owner: (nil)\n");
+
+	}
+	else
+		return;
+}
