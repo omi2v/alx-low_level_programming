@@ -8,6 +8,7 @@
 void print_name(char *name, void (*f)(char *))
 {
 unsigned int i;
+i = 0;
 while (name[i])
 {
 	if (name[i] >= 'a' && name[i] <= 'z')
