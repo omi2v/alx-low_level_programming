@@ -1,11 +1,23 @@
+#include <stdio.h>
 #include "function_pointers.h"
 /**
  * print_name - function name
- * @name: name of character
+ * @name: name of person
  * Return: nothing
  */
 void print_name(char *name, void (*f)(char *))
 {
-	void (*na)(char*, void*);
-		na = &print_name;
+unsigned int i;
+while (name[i])
+{
+	if (name[i] >= 'a' && name[i] <= 'z')
+	{
+		putchar(name[i] + 'A' - 'a');
+	}
+	else
+	{
+		putchar(name[i]);
+	}
+	i++;
+}
 }
