@@ -20,5 +20,6 @@ while (name[i])
 		putchar(name[i]);
 	}
 	i++;
+	return 0;
 }
 }
