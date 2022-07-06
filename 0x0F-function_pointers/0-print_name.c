@@ -3,6 +3,7 @@
 /**
  * print_name - function name
  * @name: name of person
+ * @f: the f
  * Return: nothing
  */
 void print_name(char *name, void (*f)(char *))
