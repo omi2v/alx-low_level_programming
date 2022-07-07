@@ -1,5 +1,4 @@
 #include <stdarg.h>
-#include "variadic_functions.h"
 /**
  * sum_them_all - functioon to sum all
  * @n: the n times integer
