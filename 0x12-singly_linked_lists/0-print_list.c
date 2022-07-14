@@ -2,20 +2,21 @@
 #include <stdio.h>
 /**
  * print_list - function declaration
- * @h: the first list
- * Return: 0
+ * @h: char
+ * Return: smething
  */
 size_t print_list(const list_t *h)
 {
-	int i = 0;
+	int count = 0;
 	while (h)
 	{
-	if (h->str == NULL)
-		printf("[0] (nil)\n");
-	else
+		if (h->str == NULL)
+			printf("[0] (nil)\n");
+		else
 		printf("[%i] %s\n", h->len, h->str);
-	h = h->next;
-	i++;
-	return (i);
+		h = h->next;
+		count++;
 	}
+	return (count);
 }
+
