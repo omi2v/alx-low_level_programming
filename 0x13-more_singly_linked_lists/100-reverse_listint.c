@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * reverse_listint - reverse function
- * head: the head
+ * @head: the head
  * Return: something
  */
 listint_t *reverse_listint(listint_t **head)
