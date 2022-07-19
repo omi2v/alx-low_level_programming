@@ -4,6 +4,7 @@
  * delete_nodeint_at_index - function declaration for
  * @head: head of fun
  * @index: index of the fun
+ * Return: something
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
