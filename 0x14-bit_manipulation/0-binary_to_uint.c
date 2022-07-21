@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stddef.h>
-#include <string.h>
-#include <stdlib.h>
 /**
  * binary_to_uint - convert binary
  * @b: the b character
@@ -9,22 +6,28 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-unsigned int k = 2;
-unsigned int i;
-unsigned int c;
-unsigned int len;
-if (b == NULL)
+int i = 0;
+unsigned int n = 0;
+int power = 0;
+if (b == '\0')
 return (0);
-len = strlen(b);
-for (c = len; c > 0; c--)
+while (b[i + 1])
+i++;
+while (i >= 0)
 {
-if (b[c] != 48 || b[c] != 49)
+if (b[i] == '0')
+{
+i--;
+power++;
+}
+else if (b[i] == '1')
+{
+n += (1 << power);
+i--;
+power++;
+}
+else
 return (0);
-if (b[c] == '1')
-{
-i += atoi(b) * k;
 }
-k *= 2;
-}
-return (i);
+return (n);
 }
